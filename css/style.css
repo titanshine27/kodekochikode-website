@@ -796,6 +796,17 @@ textarea.input {
   height: 9rem;
 }
 
+.title-sponsor>img {
+  width: 20vw;
+  height: 30vh;
+  /* max-width: 12rem;
+  max-height: 12rem; */
+}
+
+.left-sponsor-height {
+  height: 240px;
+}
+
 /*=========================================================
 	CONTACT
 ===========================================================*/
@@ -852,6 +863,7 @@ textarea.input {
 
 #footer {
   padding: 60px 0px;
+  background-color: #dd0a37;
 }
 
 .footer-brand {
