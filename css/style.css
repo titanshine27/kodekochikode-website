@@ -796,15 +796,10 @@ textarea.input {
   height: 9rem;
 }
 
-.title-sponsor>img {
-  width: 20vw;
-  height: 30vh;
-  /* max-width: 12rem;
-  max-height: 12rem; */
-}
-
-.left-sponsor-height {
-  height: 240px;
+.title-sponsor {
+  width: 100%;
+  max-width: 45rem;
+  height: 20rem;
 }
 
 /*=========================================================
@@ -863,7 +858,6 @@ textarea.input {
 
 #footer {
   padding: 60px 0px;
-  background-color: #dd0a37;
 }
 
 .footer-brand {
@@ -871,7 +865,7 @@ textarea.input {
 }
 
 .footer-brand .logo>img {
-  max-height: 50px;
+  max-height: 90px;
 }
 
 .copyright {
