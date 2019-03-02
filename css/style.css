@@ -397,12 +397,12 @@ textarea.input {
 .number h3 {
   font-size: 42px;
   margin-bottom: 0px;
-  color: #dd0a37;
+  color: #fff;
 }
 
 .number p {
   text-transform: uppercase;
-  color: #0b0f28;
+  color: #dd0a37;
 }
 
 /*=========================================================
@@ -1107,4 +1107,8 @@ textarea.input {
   .navbar-brand {
     margin: 5px 5px;
   }
+}
+
+.text-white {
+  color: #fff;
 }
