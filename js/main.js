@@ -16,6 +16,18 @@
 		$('.main-nav').toggleClass('open')
 	});
 
+	$("#countdown")
+  .countdown("2019/03/15 08:00", function(event) {
+
+		$('#days').text(event.strftime('%D'));
+		$('#hours').text(event.strftime('%H'));
+		$('#minutes').text(event.strftime('%M'));
+		$('#seconds').text(event.strftime('%S'));	
+    // $(this).text(
+    //   event.strftime('%D days %H:%M:%S')
+    // );
+  });
+
 	// Fixed nav
 	// $(window).on('scroll', function() {
 	// 	var wScroll = $(this).scrollTop();

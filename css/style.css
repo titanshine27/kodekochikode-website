@@ -1086,7 +1086,7 @@ textarea.input {
 
 @media only screen and (max-width: 480px) {
   [class*='col-xs'] {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
@@ -1111,4 +1111,19 @@ textarea.input {
 
 .text-white {
   color: #fff;
+}
+
+@media only screen and (min-width: 767px) {
+  #countdown {
+    width: 65%;
+    margin: auto;
+  }
+}
+
+#countdown > div > h3 {
+  display: inline;
+}
+
+#countdown > div > p {
+  display: inline;
 }
