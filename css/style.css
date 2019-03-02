@@ -1127,3 +1127,8 @@ textarea.input {
 #countdown > div > p {
   display: inline;
 }
+
+.landing-logo {
+  max-width: 40rem;
+  max-height: 40rem;
+}
