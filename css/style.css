@@ -184,10 +184,6 @@ textarea.input {
   display: inline-block;
 }
 
-.navbar-brand .logo>img {
-  max-height: 50px;
-}
-
 @media only screen and (max-width: 767px) {
   .navbar-brand {
     margin: 15px 15px;
@@ -1091,5 +1087,24 @@ textarea.input {
 @media only screen and (max-width: 480px) {
   [class*='col-xs'] {
     width: 100%;
+  }
+}
+
+/*=========================================================
+	OVERRIDERS
+===========================================================*/
+
+.navbar-brand {
+  margin: 5px 0;
+}
+
+.logo-img {
+  max-height: 75px;
+  height: 65px;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-brand {
+    margin: 5px 5px;
   }
 }
