@@ -62,12 +62,12 @@
         <!-- Navigation -->
         <nav id="nav">
           <ul class="main-nav nav navbar-nav navbar-right">
-            <li><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#home">Home</a></li>
             <!-- <li><a href="#takeaway">Takeaways</a></li> -->
-            <li><a href="#about">About</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav-item"><a href="#about">About</a></li>
+            <li class="nav-item"><a href="#sponsors">Sponsors</a></li>
+            <li class="nav-item"><a href="#schedule">Schedule</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <!-- /Navigation -->
@@ -95,7 +95,7 @@
             <!-- home content -->
             <div class="col-md-8 col-md-offset-2">
               <div class="home-content">
-                <h1>Kode Kochi Kode</h1>
+                <img class="landing-logo" src="./img/landing-logo.png" alt="KodeKochiKode-Logo">
                 <h4 class="lead">
                   Kode Kochi Kode is a 24 hours non-stop Inter-College
                   Hackathon. It is a pilot event of Abhiyanthriki 2k19, the
@@ -103,10 +103,36 @@
                   Technology, Kochi, Kerala
                 </h4>
                 <a href="#" class="main-btn">Register</a>
-              </div>
+                <br />
+                <br />
+                <br />
+                <h1>C O M I N G&nbsp;&nbsp; &nbsp;S O O N</h1>
+                <br />
+              </div>`
             </div>
             <!-- /home content -->
           </div>
+
+          <!-- <div id="countdown" class="number">
+            <div class="row">
+              <div class="col-xs-3">
+                <h3 id="days" class="inline"></h3>
+                <p class="inline">DAYS</p>
+              </div>
+              <div class="col-xs-3" class="inline">
+                <h3 id="hours"></h3>
+                <p class="inline">HOURS</p>
+              </div>
+              <div class="col-xs-3" class="inline">
+                <h3 id="minutes"></h3>
+                <p class="inline">MINUTES</p>
+              </div>
+              <div class="col-xs-3" class="inline">
+                <h3 id="seconds"></h3>
+                <p class="inline">SECONDS</p>
+              </div>
+            </div>
+          </div> -->
           <!-- /row -->
         </div>
         <!-- /container -->
@@ -296,11 +322,11 @@
     <!-- About -->
     <div id="about" class="section">
       <!-- background image -->
-      <!-- <div
+      <div
         class="section-bg"
-        style="background-image:url(./img/bg-about.png)"
+        style="background-image:url(./img/bg-about-new.png)"
         data-stellar-background-ratio="0.5"
-      ></div> -->
+      ></div>
       <!-- /background image -->
       <!-- container -->
       <div class="container">
@@ -309,14 +335,14 @@
           <!-- section title -->
           <div class="section-title">
             <h3 class="title">
-              <span>About</span> <span style="color: #dd0a37;">the event</span>
+              <span class="text-white">About the event</span>
             </h3>
           </div>
           <!-- /section title -->
 
           <div class="col-md-8 col-md-offset-2 text-center">
             <!-- about content -->
-            <div class="about-content">
+            <div class="about-content text-white lead">
               <p>
                 The hackathon will have multiple tracks with specific themes,
                 participating teams are supposed to come up with innovative
@@ -407,6 +433,7 @@
  -->
     <!-- /Video CTA -->
 
+    <!-- TODO: Change Other sponsors seciton -->
     <!-- Sponsors -->
     <div id="sponsors" class="section">
       <!-- container -->
@@ -426,7 +453,11 @@
             <div class="row justify-content-center">
               <!-- sponsor -->
               <div class="col align-self-center">
-                <a href="https://surveysparrow.com/" target="_blank" class="sponsor">
+                <a
+                  href="https://surveysparrow.com/"
+                  target="_blank"
+                  class="sponsor"
+                >
                   <center>
                     <img
                       class="title-sponsor"
@@ -442,9 +473,9 @@
             <div class="row justify-content-center">
               <!-- sponsor -->
               <div class="col align-self-center">
-                <a href="#" class="sponsor">
+                <a href="https://www.agreefy.com/" class="sponsor">
                   <center>
-                    <img class="title-sponsor" src="./img/sponsor.png" alt="" />
+                    <img class="sponsor-agreefy" src="./img/sponsor-agreefy.png" alt="" />
                   </center>
                 </a>
               </div>
@@ -454,37 +485,49 @@
             <div class="row justify-content-center">
               <!-- sponsor -->
               <div class="col align-self-center">
-                <a href="#" class="sponsor">
-                  <center>
-                    <img class="title-sponsor" src="./img/sponsor.png" alt="" />
-                  </center>
-                </a>
-              </div>
-              <!-- /sponsor -->
+                  <a
+                    href="http://www.inqinnovation.com/"
+                    target="_blank"
+                    class="sponsor"
+                  >
+                    <center>
+                      <img src="./img/sponsor-inq.png" alt="" />
+                    </center>
+                  </a>
+                </div>
+                <!-- /sponsor -->
             </div>
             <h2 class="contact">Silver Sponsors</h2>
             <div class="row justify-content-center">
               <!-- sponsor -->
               <div class="col align-self-center">
-                <a href="#" class="sponsor">
-                  <center>
-                    <img class="title-sponsor" src="./img/sponsor.png" alt="" />
-                  </center>
-                </a>
+                  <a href="#" class="sponsor">
+                    <center>
+                      <img class="title-sponsor" src="./img/sponsor.png" alt="" />
+                    </center>
+                  </a>
+                </div>
+                <!-- /sponsor -->
               </div>
-              <!-- /sponsor -->
             </div>
             <h2 class="contact">Digital Media Partner</h2>
             <div class="row justify-content-center">
               <div class="col align-self-center">
-                <a href="https://www.xwards.com" target="_blank" class="sponsor">
+                <a
+                  href="https://www.xwards.com"
+                  target="_blank"
+                  class="sponsor"
+                >
                   <center>
-                    <img class="sponsor-xwards" src="./img/sponsor-xwards.png" alt="" />
+                    <img
+                      class="sponsor-xwards"
+                      src="./img/sponsor-xwards.png"
+                      alt=""
+                    />
                   </center>
                 </a>
               </div>
             </div>
-            
           </div>
         </div>
         <!-- /row -->
@@ -715,7 +758,7 @@
           <div class="col-sm-4">
             <div class="contact">
               <h3>Email</h3>
-              <a href="#">info@kodekochikode.com</a>
+              <a href="mailto:info@kodekochikode.com">info@kodekochikode.com</a>
             </div>
           </div>
           <!-- /contact -->
@@ -771,8 +814,7 @@
     <center>
       <span class="copyright">
         Made with
-        <i class="fa fa-heart-o" aria-hidden="true"></i> by
-        Prejith</span
+        <i class="fa fa-heart-o" aria-hidden="true"></i> by Prejith</span
       >
     </center>
 
@@ -782,6 +824,7 @@
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/jquery.stellar.min.js"></script>
     <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
