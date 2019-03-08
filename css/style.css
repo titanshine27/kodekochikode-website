@@ -799,6 +799,11 @@ textarea.input {
   margin-right: auto;
 }
 
+.sponsor-agreefy {
+  width: 20rem;
+  height: 16rem;
+}
+
 .title-sponsor {
   width: 100%;
   max-width: 40rem;
