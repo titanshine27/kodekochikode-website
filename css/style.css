@@ -804,12 +804,26 @@ textarea.input {
   height: 16rem;
 }
 
+.sponsor-hifx {
+
+}
+
+.sponsor-redblack {
+  width: 30rem;
+  height: 6rem;
+}
+
 .title-sponsor {
   width: 100%;
   max-width: 40rem;
   height: 16rem;
 }
 
+.vertical-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 /*=========================================================
 	CONTACT
 ===========================================================*/
