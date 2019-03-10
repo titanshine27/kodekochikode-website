@@ -69,6 +69,10 @@ h4 {
   font-size: 20px;
 }
 
+.small {
+  font-size: 15px;
+}
+
 a {
   color: #0b0f28;
   -webkit-transition: 0.3s color;
@@ -812,6 +816,16 @@ textarea.input {
 .sponsor-redblack {
   width: 30rem;
   height: 6rem;
+}
+
+.sponsor-mozilla {
+  width: 30rem;
+  height: 10rem;
+}
+
+.sponsor-iedc {
+  width: 30rem;
+  height: 10rem;
 }
 
 .title-sponsor {
