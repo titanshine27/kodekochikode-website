@@ -805,7 +805,8 @@ textarea.input {
 }
 
 .sponsor-hifx {
-
+  width: 20rem;
+  height: 6rem;
 }
 
 .sponsor-redblack {
@@ -815,7 +816,7 @@ textarea.input {
 
 .title-sponsor {
   width: 100%;
-  max-width: 40rem;
+  max-width: 35rem;
   height: 16rem;
 }
 
