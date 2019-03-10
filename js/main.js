@@ -23,9 +23,6 @@
 		$('#hours').text(event.strftime('%H'));
 		$('#minutes').text(event.strftime('%M'));
 		$('#seconds').text(event.strftime('%S'));	
-    // $(this).text(
-    //   event.strftime('%D days %H:%M:%S')
-    // );
   });
 
 	// Fixed nav
@@ -36,6 +33,14 @@
 
 	// Smooth scroll
 	$(".main-nav a[href^='#']").on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+			scrollTop: $(this.hash).offset().top
+		}, 800);
+	});
+
+	$("#register-button").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
