@@ -1167,3 +1167,7 @@ textarea.input {
   max-width: 40rem;
   max-height: 40rem;
 }
+
+.extra-spacing {
+  letter-spacing: 5px;
+}
