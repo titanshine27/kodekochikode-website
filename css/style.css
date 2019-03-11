@@ -796,7 +796,7 @@ textarea.input {
 }
 
 .sponsor-xwards {
-  width: 16rem;
+  /* width: 16rem; */
   height: 16rem;
   margin-left: auto;
   margin-right: auto;
@@ -816,7 +816,7 @@ textarea.input {
 }
 
 .sponsor-festflick {
-  height: 6.5rem;
+  height: 8rem;
 }
 
 .sponsor-mozilla {
