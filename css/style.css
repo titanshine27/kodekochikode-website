@@ -346,6 +346,9 @@ textarea.input {
   .navbar-toggle {
     display: block;
   }
+  #no-mobile {
+    display: none;
+  }
 }
 
 /*=========================================================
@@ -797,7 +800,7 @@ textarea.input {
 
 .sponsor-xwards {
   /* width: 16rem; */
-  height: 16rem;
+  height: 10rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -819,6 +822,10 @@ textarea.input {
   height: 8rem;
 }
 
+.sponsor-tinkerhub {
+  height: 6.5rem;
+}
+
 .sponsor-mozilla {
   width: 20rem;
   height: 7rem;
@@ -833,6 +840,10 @@ textarea.input {
   width: 100%;
   max-width: 35rem;
   height: 16rem;
+}
+
+.sponsor-accelere {
+  height: 6.5rem;
 }
 
 .vertical-center {
